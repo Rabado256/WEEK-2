@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Greeting App | Averon Academy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="card-container">
+        <h1>Averon Academy Portal</h1>
+        <p class="subtitle">Week 3: JavaScript Interactivity</p>
+
+        <div class="input-group">
+            <label for="username">Enter Your Full Name:</label>
+            <input type="text" id="username" placeholder="e.g., Umar Adamu Rabo" autocomplete="off">
+        </div>
+
+        <button id="greetBtn">Generate Greeting</button>
+
+        <div id="outputContainer" class="output-box">
+            <p id="greetingMessage">Waiting for user input...</p>
+        </div>
+    </main>
+
+    <!-- Script loaded with defer attribute -->
+    <script src="script.js" defer></script>
+</body>
+</html>
